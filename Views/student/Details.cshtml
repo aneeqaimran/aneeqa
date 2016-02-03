@@ -1,0 +1,33 @@
+﻿@model MvcApplication1.Models.student
+
+@{
+    ViewBag.Title = "student Details";
+}
+
+<h2>student Details</h2>
+<table style="font-family:Arial">
+    <tr>
+        <td>
+            <b>Student Name</b>
+        </td>
+        <td>
+            @Model.name
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <b>Student RollNumb</b>
+        </td>
+        <td>
+            @Model.rollNum
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <b>Student Semester</b>
+        </td>
+        <td>
+            @Model.semester
+        </td>
+    </tr>
+</table>
